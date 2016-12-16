@@ -34,7 +34,7 @@ class GoogleAnalytics(object):
         print
 
         ga = GoogleAPI('analytics', 'v3')
-        results = ga.get2(dimensions, metrics, filters, start_date, end_date)
+        results = ga.get(dimensions, metrics, filters, start_date, end_date)
         
         return results
 

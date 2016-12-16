@@ -1,6 +1,5 @@
 #!/bin/env python
 
-import os
 import httplib2
 
 from googleapiclient import discovery
@@ -8,35 +7,23 @@ from oauth2client import client
 from oauth2client import file
 from oauth2client import tools
 
-from vlib import conf
 from utils import lazyproperty
-
-BACKWARD_COMPAT = 0
-BACKWARD_COMPAT_MAP = {'ga:sessions': 'ga:visits',
-                       'ga:sessionDuration': 'ga:timeOnSite',
-                       'ga:bounces': 'ga:bounce'}
+import config
 
 class GoogleAPI(object):
     '''Preside over Google API'''
 
     max_records = 10000
 
-    def __init__(self, name, version, backward_compat=BACKWARD_COMPAT):
+    def __init__(self, name, version):
         '''Constructor
              name    - api service name
              version - api service version
 
              eq. ga = GoogleAPI('analytics', 'v3')
         '''
-        self.conf = conf.getInstance()
         self.name = name
         self.version = version
-        self.backward_compat = backward_compat
-
-    @lazyproperty
-    def profile_id(self):
-        '''Return Google Account Profile Id'''
-        return self.conf.google_analytics.profile_id
 
     @lazyproperty
     def service(self):
@@ -59,8 +46,7 @@ class GoogleAPI(object):
         '''Setup and return Flow Object
            only needed for first time auth
         '''
-        client_secrets = '%s/config/googleanalytics/client.json' \
-            % self.conf.base_dir
+        client_secrets = config.client_json
         scope='https://www.googleapis.com/auth/analytics.readonly'
         flow = client.flow_from_clientsecrets(
             client_secrets,
@@ -68,7 +54,7 @@ class GoogleAPI(object):
             message=tools.message_if_missing(client_secrets))
         return flow
 
-    def get2(self, dimensions, metrics, filters, start_date, end_date):
+    def get(self, dimensions, metrics, filters, start_date, end_date):
         '''Call Google API for given parameters
            make multiple calls in blocks of self.max_records
 
@@ -98,11 +84,6 @@ class GoogleAPI(object):
         # header
         header = dimensions.split(',')
         header += metrics.split(',')
-        if self.backward_compat:
-            header2 = []
-            for h in header:
-                header2.append(BACKWARD_COMPAT_MAP.get(h, h))
-            header = header2
         
         data = [header]
         more_records = True
@@ -110,7 +91,7 @@ class GoogleAPI(object):
 
         while more_records:
             results = self.service.data().ga().get(
-                ids='ga:%s' % self.profile_id,
+                ids='ga:%s' % config.profile_id,
 
                 metrics=metrics,
                 dimensions=dimensions,
@@ -136,68 +117,9 @@ class GoogleAPI(object):
 
         return data
 
-    def get(self, metric, start_date, end_date, filters=None, start_index=1,
-            dimensions=None):
-        '''DEPRECATED: see get2()'''
-
-        # add ga: prefix to dimensions
-        ga_dimensions = []
-        if dimensions:
-            for d in dimensions.split(','):
-                ga_dimensions.append('ga:%s' % d)
-
-        results = self.service.data().ga().get(
-            ids='ga:%s' % self.profile_id,
-            metrics='ga:%s' % metric,
-            dimensions=','.join(ga_dimensions),
-            max_results=self.max_records,
-            start_date=start_date,
-            end_date=end_date,
-            filters=filters,
-            sort=','.join(ga_dimensions),
-            start_index=start_index
-
-            # other possible parameters
-            #sort='-ga:visits',
-            #filters='ga:medium==organic',
-            #start_index='1'
-            #max_results='25'
-
-            ).execute()
-
-        data = []
-        for row in results.get('rows', []):
-            data.append(row)
-        return data
-
 if __name__ == '__main__':
     ga = GoogleAPI('analytics', 'v3')
-    #results = ga.get(metric='internalPromotionClicks',
-    #                 dimensions='internalPromotionPosition',
-    #                 start_date='300daysAgo',
-    #                 end_date='yesterday')
-    '''
-    results = ga.get(#metric='internalPromotionClicks',
-        #metric='transactions',
-        metric='transactionRevenue',
-        dimensions='date,internalPromotionPosition',
-        start_date='1daysAgo',
-        end_date='yesterday')
-        '''
-    #dimensions='date,country,region,city,hour,minute,daysSinceLastVisit',
-
-    """
     results = ga.get(
-        metric='visits,ga:timeOnSite',
-        #metric='bounces',
-        #metric='timeOnSite',
-        #dimensions='date,country,region,city,hour,minute,daysSinceLastVisit',
-        dimensions='date,channelGrouping',
-        filters='ga:channelGrouping==Direct,ga:channelGrouping==Paid Search,ga:channelGrouping==Organic Search',
-        start_date='1daysAgo',
-        end_date='yesterday')
-        """
-    results = ga.get2(
         metrics='ga:visits,ga:goal6Completions',
         dimensions='ga:channelGrouping',
         filters=None,
