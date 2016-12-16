@@ -1,0 +1,1708 @@
+<dataRoot>
+  <Metrics>
+    <Name>% Exit</Name>
+    <APIName>ga:exitRate</APIName>
+    <Description>The percentage of exits from your property that occurred out of the total page views.</Description>
+    <ID>55</ID>
+    <Category>Page Tracking</Category>
+    <DataType>DT_R8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>% New Sessions</Name>
+    <APIName>ga:percentNewSessions</APIName>
+    <Description>The percentage of sessions by people who had never visited your property before.</Description>
+    <ID>5</ID>
+    <Category>User</Category>
+    <DataType>DT_R8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>% Search Exits</Name>
+    <APIName>ga:searchExitRate</APIName>
+    <Description>The percentage of searches that resulted in an immediate exit from your property.</Description>
+    <ID>70</ID>
+    <Category>Internal Search</Category>
+    <DataType>DT_R8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>% Search Refinements</Name>
+    <APIName>ga:percentSearchRefinements</APIName>
+    <Description>The percentage of number of times a refinement (i.e., transition) occurs between internal search keywords within a session.</Description>
+    <ID>66</ID>
+    <Category>Internal Search</Category>
+    <DataType>DT_R8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>% Sessions with Search</Name>
+    <APIName>ga:percentSessionsWithSearch</APIName>
+    <Description>The percentage of sessions with search.</Description>
+    <ID>61</ID>
+    <Category>Internal Search</Category>
+    <DataType>DT_R8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Abandoned Funnels</Name>
+    <APIName>ga:goalAbandonsAll</APIName>
+    <Description>The overall number of times users started goals without actually completing them.</Description>
+    <ID>41</ID>
+    <Category>Goal Conversions</Category>
+    <DataType>DT_I8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Actions Per Social Session</Name>
+    <APIName>ga:socialInteractionsPerSession</APIName>
+    <Description>The number of social interactions per session on your property.</Description>
+    <ID>130</ID>
+    <Category>Social Interactions</Category>
+    <DataType>DT_R8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>AdSense Ad Units Viewed</Name>
+    <APIName>ga:adsenseAdUnitsViewed</APIName>
+    <Description>The number of AdSense ad units viewed. An Ad unit is a set of ads displayed as a result of one piece of the AdSense ad code. Details: https://support.google.com/adsense/answer/32715?hl=en</Description>
+    <ID>141</ID>
+    <Category>Adsense</Category>
+    <DataType>DT_I8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>AdSense Ads Clicked</Name>
+    <APIName>ga:adsenseAdsClicks</APIName>
+    <Description>The number of times AdSense ads on your site were clicked.</Description>
+    <ID>143</ID>
+    <Category>Adsense</Category>
+    <DataType>DT_I8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>AdSense CTR</Name>
+    <APIName>ga:adsenseCTR</APIName>
+    <Description>The percentage of page impressions that resulted in a click on an AdSense ad.</Description>
+    <ID>145</ID>
+    <Category>Adsense</Category>
+    <DataType>DT_R8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>AdSense eCPM</Name>
+    <APIName>ga:adsenseECPM</APIName>
+    <Description>The estimated cost per thousand page impressions. It is your AdSense Revenue per 1000 page impressions.</Description>
+    <ID>146</ID>
+    <Category>Adsense</Category>
+    <DataType>DT_R8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>AdSense Exits</Name>
+    <APIName>ga:adsenseExits</APIName>
+    <Description>The number of sessions that ended due to a user clicking on an AdSense ad.</Description>
+    <ID>147</ID>
+    <Category>Adsense</Category>
+    <DataType>DT_I8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>AdSense Impressions</Name>
+    <APIName>ga:adsenseAdsViewed</APIName>
+    <Description>The number of AdSense ads viewed. Multiple ads can be displayed within an Ad Unit.</Description>
+    <ID>142</ID>
+    <Category>Adsense</Category>
+    <DataType>DT_I8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>AdSense Page Impressions</Name>
+    <APIName>ga:adsensePageImpressions</APIName>
+    <Description>The number of pageviews during which an AdSense ad was displayed. A page impression can have multiple Ad Units.</Description>
+    <ID>144</ID>
+    <Category>Adsense</Category>
+    <DataType>DT_I8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>AdSense Revenue</Name>
+    <APIName>ga:adsenseRevenue</APIName>
+    <Description>The total revenue from AdSense ads.</Description>
+    <ID>140</ID>
+    <Category>Adsense</Category>
+    <DataType>DT_R8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Average Order Value</Name>
+    <APIName>ga:revenuePerTransaction</APIName>
+    <Description>The average revenue for an e-commerce transaction.</Description>
+    <ID>113</ID>
+    <Category>Ecommerce</Category>
+    <DataType>DT_R8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Average Price</Name>
+    <APIName>ga:revenuePerItem</APIName>
+    <Description>The average revenue per item.</Description>
+    <ID>121</ID>
+    <Category>Ecommerce</Category>
+    <DataType>DT_R8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Average QTY</Name>
+    <APIName>ga:itemsPerPurchase</APIName>
+    <Description>The average quantity of this item (or group of items) sold per purchase.</Description>
+    <ID>123</ID>
+    <Category>Ecommerce</Category>
+    <DataType>DT_R8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Average Search Depth</Name>
+    <APIName>ga:avgSearchDepth</APIName>
+    <Description>The average number of pages people viewed after performing a search on your property.</Description>
+    <ID>64</ID>
+    <Category>Internal Search</Category>
+    <DataType>DT_R8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Avg. Document Content Loaded Time (sec)</Name>
+    <APIName>ga:avgDomContentLoadedTime</APIName>
+    <Description>The average time (in seconds) it takes the browser to parse the document.</Description>
+    <ID>91</ID>
+    <Category>Site Speed</Category>
+    <DataType>DT_R8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Avg. Document Interactive Time (sec)</Name>
+    <APIName>ga:avgDomInteractiveTime</APIName>
+    <Description>The average time (in seconds) it takes the browser to parse the document and execute deferred and parser-inserted scripts including the network time from the user's location to your server.</Description>
+    <ID>89</ID>
+    <Category>Site Speed</Category>
+    <DataType>DT_R8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Avg. Domain Lookup Time (sec)</Name>
+    <APIName>ga:avgDomainLookupTime</APIName>
+    <Description>The average amount of time (in seconds) spent in DNS lookup for this page.</Description>
+    <ID>78</ID>
+    <Category>Site Speed</Category>
+    <DataType>DT_R8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Avg. Page Download Time (sec)</Name>
+    <APIName>ga:avgPageDownloadTime</APIName>
+    <Description>The average amount of time (in seconds) to download this page.</Description>
+    <ID>80</ID>
+    <Category>Site Speed</Category>
+    <DataType>DT_R8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Avg. Page Load Time (sec)</Name>
+    <APIName>ga:avgPageLoadTime</APIName>
+    <Description>The average amount of time (in seconds) it takes for pages from the sample set to load, from initiation of the pageview (e.g. click on a page link) to load completion in the browser.</Description>
+    <ID>76</ID>
+    <Category>Site Speed</Category>
+    <DataType>DT_R8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Avg. Redirection Time (sec)</Name>
+    <APIName>ga:avgRedirectionTime</APIName>
+    <Description>The average amount of time (in seconds) spent in redirects before fetching this page. If there are no redirects, the value for this metric is expected to be 0.</Description>
+    <ID>82</ID>
+    <Category>Site Speed</Category>
+    <DataType>DT_R8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Avg. Server Connection Time (sec)</Name>
+    <APIName>ga:avgServerConnectionTime</APIName>
+    <Description>The average amount of time (in seconds) spent in establishing TCP connection for this page.</Description>
+    <ID>84</ID>
+    <Category>Site Speed</Category>
+    <DataType>DT_R8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Avg. Server Response Time (sec)</Name>
+    <APIName>ga:avgServerResponseTime</APIName>
+    <Description>The average amount of time (in seconds) your server takes to respond to a user request, including the network time from user's location to your server.</Description>
+    <ID>86</ID>
+    <Category>Site Speed</Category>
+    <DataType>DT_R8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Avg. Session Duration</Name>
+    <APIName>ga:avgSessionDuration</APIName>
+    <Description>The average duration of user sessions represented in total seconds.</Description>
+    <ID>15</ID>
+    <Category>Session</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Avg. Time on Page</Name>
+    <APIName>ga:avgTimeOnPage</APIName>
+    <Description>The average amount of time users spent viewing this page or a set of pages.</Description>
+    <ID>53</ID>
+    <Category>Page Tracking</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Avg. Time on Screen</Name>
+    <APIName>ga:avgScreenviewDuration</APIName>
+    <Description>The average amount of time users spent on a screen in seconds.</Description>
+    <ID>100</ID>
+    <Category>App Tracking</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Avg. User Timing (sec)</Name>
+    <APIName>ga:avgUserTimingValue</APIName>
+    <Description>The average amount of elapsed time.</Description>
+    <ID>134</ID>
+    <Category>User Timings</Category>
+    <DataType>DT_R8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Avg. Value</Name>
+    <APIName>ga:avgEventValue</APIName>
+    <Description>The average value of an event.</Description>
+    <ID>104</ID>
+    <Category>Event Tracking</Category>
+    <DataType>DT_R8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Bounce Rate</Name>
+    <APIName>ga:bounceRate</APIName>
+    <Description>The percentage of single-page session (i.e., session in which the person left your property from the first page).</Description>
+    <ID>11</ID>
+    <Category>Session</Category>
+    <DataType>DT_R8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Bounces</Name>
+    <APIName>ga:bounces</APIName>
+    <Description>The total number of single page (or single engagement hit) sessions for your property.</Description>
+    <ID>9</ID>
+    <Category>Session</Category>
+    <DataType>DT_I8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Buy-to-Detail Rate</Name>
+    <APIName>ga:buyToDetailRate</APIName>
+    <Description>Unique purchases divided by views of product detail pages (Enhanced Ecommerce).</Description>
+    <ID>152</ID>
+    <Category>Ecommerce</Category>
+    <DataType>DT_R8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Cart-to-Detail Rate</Name>
+    <APIName>ga:cartToDetailRate</APIName>
+    <Description>Product adds divided by views of product details (Enhanced Ecommerce).</Description>
+    <ID>153</ID>
+    <Category>Ecommerce</Category>
+    <DataType>DT_R8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Clicks</Name>
+    <APIName>ga:adClicks</APIName>
+    <Description>The total number of times users have clicked on an ad to reach your property.</Description>
+    <ID>19</ID>
+    <Category>Adwords</Category>
+    <DataType>DT_I8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Correlation Score</Name>
+    <APIName>ga:correlationScore</APIName>
+    <Description>Correlation Score for related products.</Description>
+    <ID>148</ID>
+    <Category>Related Products</Category>
+    <DataType>DT_R8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Cost</Name>
+    <APIName>ga:adCost</APIName>
+    <Description>Derived cost for the advertising campaign. The currency for this value is based on the currency that you set in your AdWords account.</Description>
+    <ID>20</ID>
+    <Category>Adwords</Category>
+    <DataType>DT_R8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Cost per Conversion</Name>
+    <APIName>ga:costPerConversion</APIName>
+    <Description>The cost per conversion (including ecommerce and goal conversions) for your property.</Description>
+    <ID>26</ID>
+    <Category>Adwords</Category>
+    <DataType>DT_R8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Cost per Goal Conversion</Name>
+    <APIName>ga:costPerGoalConversion</APIName>
+    <Description>The cost per goal conversion for your property.</Description>
+    <ID>25</ID>
+    <Category>Adwords</Category>
+    <DataType>DT_R8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Cost per Transaction</Name>
+    <APIName>ga:costPerTransaction</APIName>
+    <Description>The cost per transaction for your property.</Description>
+    <ID>24</ID>
+    <Category>Adwords</Category>
+    <DataType>DT_R8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>CPC</Name>
+    <APIName>ga:CPC</APIName>
+    <Description>Cost to advertiser per click.</Description>
+    <ID>22</ID>
+    <Category>Adwords</Category>
+    <DataType>DT_R8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>CPM</Name>
+    <APIName>ga:CPM</APIName>
+    <Description>Cost per thousand impressions.</Description>
+    <ID>21</ID>
+    <Category>Adwords</Category>
+    <DataType>DT_R8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Crashes</Name>
+    <APIName>ga:fatalExceptions</APIName>
+    <Description>The number of exceptions where isFatal is set to true.</Description>
+    <ID>137</ID>
+    <Category>Exceptions</Category>
+    <DataType>DT_I8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Crashes / Screen</Name>
+    <APIName>ga:fatalExceptionsPerScreenview</APIName>
+    <Description>The number of fatal exceptions thrown divided by the number of screenviews.</Description>
+    <ID>138</ID>
+    <Category>Exceptions</Category>
+    <DataType>DT_R8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>CTR</Name>
+    <APIName>ga:CTR</APIName>
+    <Description>Click-through-rate for your ad. This is equal to the number of clicks divided by the number of impressions for your ad (e.g. how many times users clicked on one of your ads where that ad appeared).</Description>
+    <ID>23</ID>
+    <Category>Adwords</Category>
+    <DataType>DT_R8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Custom Metric XX Value</Name>
+    <APIName>ga:metricXX</APIName>
+    <Description>The name of the requested custom metric, where XX refers the number/index of the custom metric.</Description>
+    <ID>139</ID>
+    <Category>Custom Variables or Columns</Category>
+    <DataType>DT_I8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Data Hub Activities</Name>
+    <APIName>ga:socialActivities</APIName>
+    <Description>The count of activities where a content URL was shared / mentioned on a social data hub partner network.</Description>
+    <ID>44</ID>
+    <Category>Social Activities</Category>
+    <DataType>DT_I8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Document Content Loaded Time (ms)</Name>
+    <APIName>ga:domContentLoadedTime</APIName>
+    <Description>The time the browser takes (in milliseconds) to parse the document and execute deferred and parser-inserted scripts (DOMContentLoaded), including the network time from the user's location to your server. Parsing of the document is finished, the Document Object Model is ready, but referenced style sheets, images, and subframes may not be finished loading. This event is often the starting point for javascript framework execution, e.g., JQuery's onready() callback, etc.</Description>
+    <ID>90</ID>
+    <Category>Site Speed</Category>
+    <DataType>DT_I8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Document Interactive Time (ms)</Name>
+    <APIName>ga:domInteractiveTime</APIName>
+    <Description>The time the browser takes (in milliseconds) to parse the document (DOMInteractive), including the network time from the user's location to your server. At this time, the user can interact with the Document Object Model even though it is not fully loaded.</Description>
+    <ID>88</ID>
+    <Category>Site Speed</Category>
+    <DataType>DT_I8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>DOM Latency Metrics Sample</Name>
+    <APIName>ga:domLatencyMetricsSample</APIName>
+    <Description>The sample set (or count) of pageviews used to calculate the averages for site speed DOM metrics. This metric is used in the avgDomContentLoadedTime and avgDomInteractiveTime calculations.</Description>
+    <ID>92</ID>
+    <Category>Site Speed</Category>
+    <DataType>DT_I8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Domain Lookup Time (ms)</Name>
+    <APIName>ga:domainLookupTime</APIName>
+    <Description>The total amount of time (in milliseconds) spent in DNS lookup for this page among all samples.</Description>
+    <ID>77</ID>
+    <Category>Site Speed</Category>
+    <DataType>DT_I8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Ecommerce Conversion Rate</Name>
+    <APIName>ga:transactionsPerSession</APIName>
+    <Description>The average number of transactions for a session on your property.</Description>
+    <ID>110</ID>
+    <Category>Ecommerce</Category>
+    <DataType>DT_R8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Entrances</Name>
+    <APIName>ga:entrances</APIName>
+    <Description>The number of entrances to your property measured as the first pageview in a session. Typically used with landingPagePath</Description>
+    <ID>46</ID>
+    <Category>Page Tracking</Category>
+    <DataType>DT_I8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Entrances / Pageviews</Name>
+    <APIName>ga:entranceRate</APIName>
+    <Description>The percentage of pageviews in which this page was the entrance.</Description>
+    <ID>47</ID>
+    <Category>Page Tracking</Category>
+    <DataType>DT_R8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Event Value</Name>
+    <APIName>ga:eventValue</APIName>
+    <Description>The total value of events for the profile.</Description>
+    <ID>103</ID>
+    <Category>Event Tracking</Category>
+    <DataType>DT_I8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Events / Session with Event</Name>
+    <APIName>ga:eventsPerSessionWithEvent</APIName>
+    <Description>The average number of events per session with event.</Description>
+    <ID>107</ID>
+    <Category>Event Tracking</Category>
+    <DataType>DT_R8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Exceptions</Name>
+    <APIName>ga:exceptions</APIName>
+    <Description>The number of exceptions that were sent to Google Analytics.</Description>
+    <ID>135</ID>
+    <Category>Exceptions</Category>
+    <DataType>DT_I8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Exceptions / Screen</Name>
+    <APIName>ga:exceptionsPerScreenview</APIName>
+    <Description>The number of exceptions thrown divided by the number of screenviews.</Description>
+    <ID>136</ID>
+    <Category>Exceptions</Category>
+    <DataType>DT_R8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Exits</Name>
+    <APIName>ga:exits</APIName>
+    <Description>The number of exits from your property.</Description>
+    <ID>54</ID>
+    <Category>Page Tracking</Category>
+    <DataType>DT_I8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Goal Completions</Name>
+    <APIName>ga:goalCompletionsAll</APIName>
+    <Description>The total number of completions for all goals defined for your profile.</Description>
+    <ID>33</ID>
+    <Category>Goal Conversions</Category>
+    <DataType>DT_I8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Goal Conversion Rate</Name>
+    <APIName>ga:goalConversionRateAll</APIName>
+    <Description>The percentage of sessions which resulted in a conversion to at least one of your goals.</Description>
+    <ID>39</ID>
+    <Category>Goal Conversions</Category>
+    <DataType>DT_R8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Goal Starts</Name>
+    <APIName>ga:goalStartsAll</APIName>
+    <Description>The total number of starts for all goals defined for your profile.</Description>
+    <ID>31</ID>
+    <Category>Goal Conversions</Category>
+    <DataType>DT_I8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Goal Value</Name>
+    <APIName>ga:goalValueAll</APIName>
+    <Description>The total numeric value for all goals defined for your profile.</Description>
+    <ID>35</ID>
+    <Category>Goal Conversions</Category>
+    <DataType>DT_R8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Goal XX Abandoned Funnels</Name>
+    <APIName>ga:goalXXAbandons</APIName>
+    <Description>The number of times users started conversion activity on the requested goal number without actually completing it.</Description>
+    <ID>40</ID>
+    <Category>Goal Conversions</Category>
+    <DataType>DT_I8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Goal XX Abandonment Rate</Name>
+    <APIName>ga:goalXXAbandonRate</APIName>
+    <Description>The rate at which the requested goal number was abandoned.</Description>
+    <ID>42</ID>
+    <Category>Goal Conversions</Category>
+    <DataType>DT_R8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Goal XX Completions</Name>
+    <APIName>ga:goalXXCompletions</APIName>
+    <Description>The total number of completions for the requested goal number.</Description>
+    <ID>32</ID>
+    <Category>Goal Conversions</Category>
+    <DataType>DT_I8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Goal XX Conversion Rate</Name>
+    <APIName>ga:goalXXConversionRate</APIName>
+    <Description>The percentage of sessions which resulted in a conversion to the requested goal number.</Description>
+    <ID>38</ID>
+    <Category>Goal Conversions</Category>
+    <DataType>DT_R8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Goal XX Starts</Name>
+    <APIName>ga:goalXXStarts</APIName>
+    <Description>The total number of starts for the requested goal number.</Description>
+    <ID>30</ID>
+    <Category>Goal Conversions</Category>
+    <DataType>DT_I8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Goal XX Value</Name>
+    <APIName>ga:goalXXValue</APIName>
+    <Description>The total numeric value for the requested goal number.</Description>
+    <ID>34</ID>
+    <Category>Goal Conversions</Category>
+    <DataType>DT_R8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Impressions</Name>
+    <APIName>ga:impressions</APIName>
+    <Description>Total number of campaign impressions.</Description>
+    <ID>18</ID>
+    <Category>Adwords</Category>
+    <DataType>DT_I8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Internal Promotion Clicks</Name>
+    <APIName>ga:internalPromotionClicks</APIName>
+    <Description>The number of clicks on an internal promotion (Enhanced Ecommerce).</Description>
+    <ID>155</ID>
+    <Category>Ecommerce</Category>
+    <DataType>DT_I8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Internal Promotion CTR</Name>
+    <APIName>ga:internalPromotionCTR</APIName>
+    <Description>The rate at which users clicked through to view the internal promotion (ga:internalPromotionClicks / ga:internalPromotionViews) - (Enhanced Ecommerce).</Description>
+    <ID>154</ID>
+    <Category>Ecommerce</Category>
+    <DataType>DT_R8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Internal Promotion Views</Name>
+    <APIName>ga:internalPromotionViews</APIName>
+    <Description>The number of views of an internal promotion (Enhanced Ecommerce).</Description>
+    <ID>156</ID>
+    <Category>Ecommerce</Category>
+    <DataType>DT_I8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Local Product Refund Amount</Name>
+    <APIName>ga:localProductRefundAmount</APIName>
+    <Description>Refund amount for a given product in the local currency (Enhanced Ecommerce).</Description>
+    <ID>157</ID>
+    <Category>Ecommerce</Category>
+    <DataType>DT_R8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Local Product Revenue</Name>
+    <APIName>ga:localItemRevenue</APIName>
+    <Description>Product revenue in local currency.</Description>
+    <ID>127</ID>
+    <Category>Ecommerce</Category>
+    <DataType>DT_R8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Local Refund Amount</Name>
+    <APIName>ga:localRefundAmount</APIName>
+    <Description>Total refund amount for the transaction in the local currency (Enhanced Ecommerce).</Description>
+    <ID>158</ID>
+    <Category>Ecommerce</Category>
+    <DataType>DT_R8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Local Revenue</Name>
+    <APIName>ga:localTransactionRevenue</APIName>
+    <Description>Transaction revenue in local currency.</Description>
+    <ID>124</ID>
+    <Category>Ecommerce</Category>
+    <DataType>DT_R8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Local Shipping</Name>
+    <APIName>ga:localTransactionShipping</APIName>
+    <Description>Transaction shipping cost in local currency.</Description>
+    <ID>125</ID>
+    <Category>Ecommerce</Category>
+    <DataType>DT_R8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Local Tax</Name>
+    <APIName>ga:localTransactionTax</APIName>
+    <Description>Transaction tax in local currency.</Description>
+    <ID>126</ID>
+    <Category>Ecommerce</Category>
+    <DataType>DT_R8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Margin</Name>
+    <APIName>ga:margin</APIName>
+    <Description>The overall transaction profit margin.</Description>
+    <ID>29</ID>
+    <Category>Adwords</Category>
+    <DataType>DT_R8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>New Users</Name>
+    <APIName>ga:newUsers</APIName>
+    <Description>The number of users whose session on your property was marked as a first-time session.</Description>
+    <ID>3</ID>
+    <Category>User</Category>
+    <DataType>DT_I8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Organic Searches</Name>
+    <APIName>ga:organicSearches</APIName>
+    <Description>The number of organic searches that happened within a session. This metric is search engine agnostic.</Description>
+    <ID>17</ID>
+    <Category>Traffic Sources</Category>
+    <DataType>DT_I8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Page Download Time (ms)</Name>
+    <APIName>ga:pageDownloadTime</APIName>
+    <Description>The total amount of time (in milliseconds) to download this page among all samples.</Description>
+    <ID>79</ID>
+    <Category>Site Speed</Category>
+    <DataType>DT_I8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Page Load Sample</Name>
+    <APIName>ga:pageLoadSample</APIName>
+    <Description>The sample set (or count) of pageviews used to calculate the average page load time.</Description>
+    <ID>75</ID>
+    <Category>Site Speed</Category>
+    <DataType>DT_I8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Page Load Time (ms)</Name>
+    <APIName>ga:pageLoadTime</APIName>
+    <Description>Total Page Load Time is the amount of time (in milliseconds) it takes for pages from the sample set to load, from initiation of the pageview (e.g. click on a page link) to load completion in the browser.</Description>
+    <ID>74</ID>
+    <Category>Site Speed</Category>
+    <DataType>DT_I8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Page Value</Name>
+    <APIName>ga:pageValue</APIName>
+    <Description>The average value of this page or set of pages. Page Value is (ga:transactionRevenue + ga:goalValueAll) / ga:uniquePageviews (for the page or set of pages).</Description>
+    <ID>45</ID>
+    <Category>Page Tracking</Category>
+    <DataType>DT_R8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Pages / Session</Name>
+    <APIName>ga:pageviewsPerSession</APIName>
+    <Description>The average number of pages viewed during a session on your property. Repeated views of a single page are counted.</Description>
+    <ID>49</ID>
+    <Category>Page Tracking</Category>
+    <DataType>DT_R8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Pageviews</Name>
+    <APIName>ga:pageviews</APIName>
+    <Description>The total number of pageviews for your property.</Description>
+    <ID>48</ID>
+    <Category>Page Tracking</Category>
+    <DataType>DT_I8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Per Search Goal Value</Name>
+    <APIName>ga:goalValueAllPerSearch</APIName>
+    <Description>The average goal value of a search on your property.</Description>
+    <ID>73</ID>
+    <Category>Internal Search</Category>
+    <DataType>DT_R8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Per Session Goal Value</Name>
+    <APIName>ga:goalValuePerSession</APIName>
+    <Description>The average goal value of a session on your property.</Description>
+    <ID>36</ID>
+    <Category>Goal Conversions</Category>
+    <DataType>DT_R8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Per Session Value</Name>
+    <APIName>ga:transactionRevenuePerSession</APIName>
+    <Description>Average transaction revenue for a session on your property.</Description>
+    <ID>114</ID>
+    <Category>Ecommerce</Category>
+    <DataType>DT_R8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Product Adds To Cart</Name>
+    <APIName>ga:productAddsToCart</APIName>
+    <Description>Number of times the product was added to the shopping cart (Enhanced Ecommerce).</Description>
+    <ID>159</ID>
+    <Category>Ecommerce</Category>
+    <DataType>DT_I8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Product Checkouts</Name>
+    <APIName>ga:productCheckouts</APIName>
+    <Description>Number of times the product was included in the check-out process (Enhanced Ecommerce).</Description>
+    <ID>160</ID>
+    <Category>Ecommerce</Category>
+    <DataType>DT_I8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Product Detail Views</Name>
+    <APIName>ga:productDetailViews</APIName>
+    <Description>Number of times users viewed the product-detail page (Enhanced Ecommerce).</Description>
+    <ID>161</ID>
+    <Category>Ecommerce</Category>
+    <DataType>DT_I8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Product List Clicks</Name>
+    <APIName>ga:productListClicks</APIName>
+    <Description>Number of times users clicked the product when it appeared in the product list (Enhanced Ecommerce).</Description>
+    <ID>163</ID>
+    <Category>Ecommerce</Category>
+    <DataType>DT_I8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Product List CTR</Name>
+    <APIName>ga:productListCTR</APIName>
+    <Description>The rate at which users clicked through on the product in a product list (ga:productListClicks / ga:productListViews) - (Enhanced Ecommerce).</Description>
+    <ID>162</ID>
+    <Category>Ecommerce</Category>
+    <DataType>DT_R8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Product List Views</Name>
+    <APIName>ga:productListViews</APIName>
+    <Description>Number of times the product appeared in a product list (Enhanced Ecommerce).</Description>
+    <ID>164</ID>
+    <Category>Ecommerce</Category>
+    <DataType>DT_I8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Product Refund Amount</Name>
+    <APIName>ga:productRefundAmount</APIName>
+    <Description>Total refund amount associated with the product (Enhanced Ecommerce).</Description>
+    <ID>165</ID>
+    <Category>Ecommerce</Category>
+    <DataType>DT_R8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Product Refunds</Name>
+    <APIName>ga:productRefunds</APIName>
+    <Description>Number of times a refund was issued for the product (Enhanced Ecommerce).</Description>
+    <ID>166</ID>
+    <Category>Ecommerce</Category>
+    <DataType>DT_I8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Product Removes From Cart</Name>
+    <APIName>ga:productRemovesFromCart</APIName>
+    <Description>Number of times the product was removed from shopping cart (Enhanced Ecommerce).</Description>
+    <ID>167</ID>
+    <Category>Ecommerce</Category>
+    <DataType>DT_I8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Product Revenue</Name>
+    <APIName>ga:itemRevenue</APIName>
+    <Description>The total revenue from purchased product items on your property.</Description>
+    <ID>122</ID>
+    <Category>Ecommerce</Category>
+    <DataType>DT_R8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Product Revenue per Purchase</Name>
+    <APIName>ga:productRevenuePerPurchase</APIName>
+    <Description>Average product revenue per purchase (commonly used with Product Coupon Code) (ga:itemRevenue / ga:uniquePurchases) - (Enhanced Ecommerce).</Description>
+    <ID>168</ID>
+    <Category>Ecommerce</Category>
+    <DataType>DT_R8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Quantity</Name>
+    <APIName>ga:itemQuantity</APIName>
+    <Description>The total number of items purchased. For example, if users purchase 2 frisbees and 5 tennis balls, 7 items have been purchased.</Description>
+    <ID>119</ID>
+    <Category>Ecommerce</Category>
+    <DataType>DT_I8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Quantity Added To Cart</Name>
+    <APIName>ga:quantityAddedToCart</APIName>
+    <Description>Number of product units added to the shopping cart (Enhanced Ecommerce).</Description>
+    <ID>169</ID>
+    <Category>Ecommerce</Category>
+    <DataType>DT_I8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Quantity Checked Out</Name>
+    <APIName>ga:quantityCheckedOut</APIName>
+    <Description>Number of product units included in check out (Enhanced Ecommerce).</Description>
+    <ID>170</ID>
+    <Category>Ecommerce</Category>
+    <DataType>DT_I8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Quantity Refunded</Name>
+    <APIName>ga:quantityRefunded</APIName>
+    <Description>Number of product units refunded (Enhanced Ecommerce).</Description>
+    <ID>171</ID>
+    <Category>Ecommerce</Category>
+    <DataType>DT_I8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Quantity Removed From Cart</Name>
+    <APIName>ga:quantityRemovedFromCart</APIName>
+    <Description>Number of product units removed from cart (Enhanced Ecommerce).</Description>
+    <ID>172</ID>
+    <Category>Ecommerce</Category>
+    <DataType>DT_I8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Queried Product Quantity</Name>
+    <APIName>ga:queryProductQuantity</APIName>
+    <Description>Quantity of the product being queried.</Description>
+    <ID>149</ID>
+    <Category>Related Products</Category>
+    <DataType>DT_I8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Redirection Time (ms)</Name>
+    <APIName>ga:redirectionTime</APIName>
+    <Description>The total amount of time (in milliseconds) spent in redirects before fetching this page among all samples. If there are no redirects, the value for this metric is expected to be 0.</Description>
+    <ID>81</ID>
+    <Category>Site Speed</Category>
+    <DataType>DT_I8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Refund Amount</Name>
+    <APIName>ga:refundAmount</APIName>
+    <Description>Currency amount refunded for a transaction (Enhanced Ecommerce).</Description>
+    <ID>173</ID>
+    <Category>Ecommerce</Category>
+    <DataType>DT_R8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Refunds</Name>
+    <APIName>ga:totalRefunds</APIName>
+    <Description>Number of refunds that have been issued (Enhanced Ecommerce).</Description>
+    <ID>174</ID>
+    <Category>Ecommerce</Category>
+    <DataType>DT_I8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Related Product Quantity</Name>
+    <APIName>ga:relatedProductQuantity</APIName>
+    <Description>Quantity of the related product.</Description>
+    <ID>150</ID>
+    <Category>Related Products</Category>
+    <DataType>DT_I8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Results Pageviews</Name>
+    <APIName>ga:searchResultViews</APIName>
+    <Description>The number of times a search result page was viewed after performing a search.</Description>
+    <ID>56</ID>
+    <Category>Internal Search</Category>
+    <DataType>DT_I8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Results Pageviews / Search</Name>
+    <APIName>ga:avgSearchResultViews</APIName>
+    <Description>The average number of times people viewed a search results page after performing a search.</Description>
+    <ID>58</ID>
+    <Category>Internal Search</Category>
+    <DataType>DT_R8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Revenue</Name>
+    <APIName>ga:transactionRevenue</APIName>
+    <Description>The total sale revenue provided in the transaction excluding shipping and tax.</Description>
+    <ID>112</ID>
+    <Category>Ecommerce</Category>
+    <DataType>DT_R8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>ROI</Name>
+    <APIName>ga:ROI</APIName>
+    <Description>Returns on Investment is overall transaction profit divided by derived advertising cost.</Description>
+    <ID>28</ID>
+    <Category>Adwords</Category>
+    <DataType>DT_R8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>RPC</Name>
+    <APIName>ga:RPC</APIName>
+    <Description>RPC or revenue-per-click is the average revenue (from ecommerce sales and/or goal value) you received for each click on one of your search ads.</Description>
+    <ID>27</ID>
+    <Category>Adwords</Category>
+    <DataType>DT_R8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Screen Views</Name>
+    <APIName>ga:screenviews</APIName>
+    <Description>The total number of screenviews.</Description>
+    <ID>93</ID>
+    <Category>App Tracking</Category>
+    <DataType>DT_I8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Screens / Session</Name>
+    <APIName>ga:screenviewsPerSession</APIName>
+    <Description>The average number of screenviews per session.</Description>
+    <ID>97</ID>
+    <Category>App Tracking</Category>
+    <DataType>DT_R8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Search Depth</Name>
+    <APIName>ga:searchDepth</APIName>
+    <Description>The average number of subsequent page views made on your property after a use of your internal search feature.</Description>
+    <ID>63</ID>
+    <Category>Internal Search</Category>
+    <DataType>DT_I8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Search Exits</Name>
+    <APIName>ga:searchExits</APIName>
+    <Description>The number of exits on your site that occurred following a search result from your internal search feature.</Description>
+    <ID>69</ID>
+    <Category>Internal Search</Category>
+    <DataType>DT_I8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Search Refinements</Name>
+    <APIName>ga:searchRefinements</APIName>
+    <Description>The total number of times a refinement (transition) occurs between internal search keywords within a session. For example if the sequence of keywords is: "shoes", "shoes", "pants", "pants", this metric will be one because the transition between "shoes" and "pants" is different.</Description>
+    <ID>65</ID>
+    <Category>Internal Search</Category>
+    <DataType>DT_I8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Server Connection Time (ms)</Name>
+    <APIName>ga:serverConnectionTime</APIName>
+    <Description>The total amount of time (in milliseconds) spent in establishing TCP connection for this page among all samples.</Description>
+    <ID>83</ID>
+    <Category>Site Speed</Category>
+    <DataType>DT_I8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Server Response Time (ms)</Name>
+    <APIName>ga:serverResponseTime</APIName>
+    <Description>The total amount of time (in milliseconds) your server takes to respond to a user request among all samples, including the network time from user's location to your server.</Description>
+    <ID>85</ID>
+    <Category>Site Speed</Category>
+    <DataType>DT_I8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Session Duration</Name>
+    <APIName>ga:sessionDuration</APIName>
+    <Description>The total duration of user sessions represented in total seconds.</Description>
+    <ID>13</ID>
+    <Category>Session</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Sessions</Name>
+    <APIName>ga:sessions</APIName>
+    <Description>Counts the total number of sessions.</Description>
+    <ID>7</ID>
+    <Category>Session</Category>
+    <DataType>DT_I8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Sessions with Event</Name>
+    <APIName>ga:sessionsWithEvent</APIName>
+    <Description>The total number of sessions with events.</Description>
+    <ID>105</ID>
+    <Category>Event Tracking</Category>
+    <DataType>DT_I8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Sessions with Search</Name>
+    <APIName>ga:searchSessions</APIName>
+    <Description>The total number of sessions that included an internal search</Description>
+    <ID>59</ID>
+    <Category>Internal Search</Category>
+    <DataType>DT_I8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Shipping</Name>
+    <APIName>ga:transactionShipping</APIName>
+    <Description>The total cost of shipping.</Description>
+    <ID>116</ID>
+    <Category>Ecommerce</Category>
+    <DataType>DT_R8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Site Search Goal Conversion Rate</Name>
+    <APIName>ga:searchGoalConversionRateAll</APIName>
+    <Description>The percentage of search sessions (i.e., sessions that included at least one search) which resulted in a conversion to at least one of your goals.</Description>
+    <ID>72</ID>
+    <Category>Internal Search</Category>
+    <DataType>DT_R8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Site Search Goal XX Conversion Rate</Name>
+    <APIName>ga:searchGoalXXConversionRate</APIName>
+    <Description>The percentage of search sessions (i.e., sessions that included at least one search) which resulted in a conversion to the requested goal number.</Description>
+    <ID>71</ID>
+    <Category>Internal Search</Category>
+    <DataType>DT_R8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Social Actions</Name>
+    <APIName>ga:socialInteractions</APIName>
+    <Description>The total number of social interactions on your property.</Description>
+    <ID>128</ID>
+    <Category>Social Interactions</Category>
+    <DataType>DT_I8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Speed Metrics Sample</Name>
+    <APIName>ga:speedMetricsSample</APIName>
+    <Description>The sample set (or count) of pageviews used to calculate the averages for site speed metrics. This metric is used in all site speed average calculations including avgDomainLookupTime, avgPageDownloadTime, avgRedirectionTime, avgServerConnectionTime, and avgServerResponseTime.</Description>
+    <ID>87</ID>
+    <Category>Site Speed</Category>
+    <DataType>DT_I8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Tax</Name>
+    <APIName>ga:transactionTax</APIName>
+    <Description>The total amount of tax.</Description>
+    <ID>117</ID>
+    <Category>Ecommerce</Category>
+    <DataType>DT_R8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Time after Search</Name>
+    <APIName>ga:searchDuration</APIName>
+    <Description>The session duration on your property where a use of your internal search feature occurred.</Description>
+    <ID>67</ID>
+    <Category>Internal Search</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Time after Search</Name>
+    <APIName>ga:avgSearchDuration</APIName>
+    <Description>The average amount of time people spent on your property after searching.</Description>
+    <ID>68</ID>
+    <Category>Internal Search</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Time on Page</Name>
+    <APIName>ga:timeOnPage</APIName>
+    <Description>How long a user spent on a particular page in seconds. Calculated by subtracting the initial view time for a particular page from the initial view time for a subsequent page. Thus, this metric does not apply to exit pages for your property.</Description>
+    <ID>52</ID>
+    <Category>Page Tracking</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Time on Screen</Name>
+    <APIName>ga:timeOnScreen</APIName>
+    <Description>The time spent viewing the current screen.</Description>
+    <ID>99</ID>
+    <Category>App Tracking</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Total Abandonment Rate</Name>
+    <APIName>ga:goalAbandonRateAll</APIName>
+    <Description>The rate at which goals were abandoned.</Description>
+    <ID>43</ID>
+    <Category>Goal Conversions</Category>
+    <DataType>DT_R8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Total Events</Name>
+    <APIName>ga:totalEvents</APIName>
+    <Description>The total number of events for the profile, across all categories.</Description>
+    <ID>101</ID>
+    <Category>Event Tracking</Category>
+    <DataType>DT_I8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Total Unique Searches</Name>
+    <APIName>ga:searchUniques</APIName>
+    <Description>The total number of unique keywords from internal searches within a session. For example if "shoes" was searched for 3 times in a session, it will be only counted once.</Description>
+    <ID>57</ID>
+    <Category>Internal Search</Category>
+    <DataType>DT_I8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Total Value</Name>
+    <APIName>ga:totalValue</APIName>
+    <Description>Total value for your property (including total revenue and total goal value).</Description>
+    <ID>118</ID>
+    <Category>Ecommerce</Category>
+    <DataType>DT_R8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Transactions</Name>
+    <APIName>ga:transactions</APIName>
+    <Description>The total number of transactions.</Description>
+    <ID>109</ID>
+    <Category>Ecommerce</Category>
+    <DataType>DT_I8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Unique Events</Name>
+    <APIName>ga:uniqueEvents</APIName>
+    <Description>The total number of unique events for the profile, across all categories.</Description>
+    <ID>102</ID>
+    <Category>Event Tracking</Category>
+    <DataType>DT_I8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Unique Pageviews</Name>
+    <APIName>ga:uniquePageviews</APIName>
+    <Description>The number of different (unique) pages within a session. This takes into account both the pagePath and pageTitle to determine uniqueness.</Description>
+    <ID>51</ID>
+    <Category>Page Tracking</Category>
+    <DataType>DT_I8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Unique Purchases</Name>
+    <APIName>ga:uniquePurchases</APIName>
+    <Description>The number of product sets purchased. For example, if users purchase 2 frisbees and 5 tennis balls from your site, 2 unique products have been purchased.</Description>
+    <ID>120</ID>
+    <Category>Ecommerce</Category>
+    <DataType>DT_I8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Unique Screen Views</Name>
+    <APIName>ga:uniqueScreenviews</APIName>
+    <Description>The number of different (unique) screenviews within a session.</Description>
+    <ID>95</ID>
+    <Category>App Tracking</Category>
+    <DataType>DT_I8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Unique Social Actions</Name>
+    <APIName>ga:uniqueSocialInteractions</APIName>
+    <Description>The number of sessions during which the specified social action(s) occurred at least once. This is based on the the unique combination of socialInteractionNetwork, socialInteractionAction, and socialInteractionTarget.</Description>
+    <ID>129</ID>
+    <Category>Social Interactions</Category>
+    <DataType>DT_I8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Unique Views</Name>
+    <APIName>ga:contentGroupUniqueViewsXX</APIName>
+    <Description>The number of different (unique) pages within a session for the specified content group. This takes into account both the pagePath and pageTitle to determine uniqueness.</Description>
+    <ID>151</ID>
+    <Category>Content Grouping</Category>
+    <DataType>DT_I8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>User Timing (ms)</Name>
+    <APIName>ga:userTimingValue</APIName>
+    <Description>The total number of milliseconds for a user timing.</Description>
+    <ID>132</ID>
+    <Category>User Timings</Category>
+    <DataType>DT_I8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>User Timing Sample</Name>
+    <APIName>ga:userTimingSample</APIName>
+    <Description>The number of hits that were sent for a particular userTimingCategory, userTimingLabel, and userTimingVariable.</Description>
+    <ID>133</ID>
+    <Category>User Timings</Category>
+    <DataType>DT_I8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Users</Name>
+    <APIName>ga:users</APIName>
+    <Description>Total number of users to your property for the requested time period.</Description>
+    <ID>1</ID>
+    <Category>User</Category>
+    <DataType>DT_I8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  <Metrics>
+    <Name>Time On Site</Name>
+    <APIName>ga:timeOnSite</APIName>
+    <Description>The total duration of visitor sessions represented in total seconds.</Description>
+    <ID>8</ID>
+    <Category>Sessions</Category>
+    <DataType>DT_R8</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Metrics>
+  
+</dataRoot>

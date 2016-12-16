@@ -1,0 +1,2015 @@
+<dataRoot>
+  <Dimensions>
+    <Name>Ad Content</Name>
+    <APIName>ga:adContent</APIName>
+    <Description>When using manual campaign tracking, the value of the utm_content campaign tracking parameter. When using AdWords autotagging, the first line of the text for your online Ad campaign. If you are using mad libs for your AdWords content, this field displays the keywords you provided for the mad libs keyword match. Otherwise the value is (not set)</Description>
+    <ID>17</ID>
+    <Category>Traffic Sources</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Ad Distribution Network</Name>
+    <APIName>ga:adDistributionNetwork</APIName>
+    <Description>The networks used to deliver your ads (Content, Search, Search partners, etc.).</Description>
+    <ID>23</ID>
+    <Category>Adwords</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Ad Format</Name>
+    <APIName>ga:adFormat</APIName>
+    <Description>Your AdWords ad formats (Text, Image, Flash, Video, etc.).</Description>
+    <ID>29</ID>
+    <Category>Adwords</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Ad Group</Name>
+    <APIName>ga:adGroup</APIName>
+    <Description>The name of your AdWords ad group.</Description>
+    <ID>20</ID>
+    <Category>Adwords</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Ad Slot</Name>
+    <APIName>ga:adSlot</APIName>
+    <Description>The location of the advertisement on the hosting page (Top, RHS, or not set).</Description>
+    <ID>21</ID>
+    <Category>Adwords</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Ad Slot Position</Name>
+    <APIName>ga:adSlotPosition</APIName>
+    <Description>The ad slot positions in which your AdWords ads appeared (1-8).</Description>
+    <ID>22</ID>
+    <Category>Adwords</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>AdWords Ad Group ID</Name>
+    <APIName>ga:adwordsAdGroupID</APIName>
+    <Description>A string. Corresponds to AdWords API AdGroup.id.</Description>
+    <ID>36</ID>
+    <Category>Adwords</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>AdWords Campaign ID</Name>
+    <APIName>ga:adwordsCampaignID</APIName>
+    <Description>A string. Corresponds to AdWords API Campaign.id.</Description>
+    <ID>35</ID>
+    <Category>Adwords</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>AdWords Creative ID</Name>
+    <APIName>ga:adwordsCreativeID</APIName>
+    <Description>A string. Corresponds to AdWords API Ad.id.</Description>
+    <ID>37</ID>
+    <Category>Adwords</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>AdWords Criteria ID</Name>
+    <APIName>ga:adwordsCriteriaID</APIName>
+    <Description>A string. Corresponds to AdWords API Criterion.id.</Description>
+    <ID>38</ID>
+    <Category>Adwords</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>AdWords Customer ID</Name>
+    <APIName>ga:adwordsCustomerID</APIName>
+    <Description>A string. Corresponds to AdWords API AccountInfo.customerId.</Description>
+    <ID>34</ID>
+    <Category>Adwords</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Affiliation</Name>
+    <APIName>ga:affiliation</APIName>
+    <Description>Typically used to designate a supplying company or brick and mortar location; product affiliation.</Description>
+    <ID>114</ID>
+    <Category>Ecommerce</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Affinity Category (reach)</Name>
+    <APIName>ga:interestAffinityCategory</APIName>
+    <Description>Indicates that users are more likely to be interested in learning about the specified category.</Description>
+    <ID>160</ID>
+    <Category>Audience</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Age</Name>
+    <APIName>ga:userAgeBracket</APIName>
+    <Description>Age bracket of user.</Description>
+    <ID>155</ID>
+    <Category>Audience</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>App ID</Name>
+    <APIName>ga:appId</APIName>
+    <Description>The ID of the application.</Description>
+    <ID>105</ID>
+    <Category>App Tracking</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>App Installer ID</Name>
+    <APIName>ga:appInstallerId</APIName>
+    <Description>ID of the installer (e.g., Google Play Store) from which the app was downloaded. By default, the app installer id is set based on the PackageManager#getInstallerPackageName method.</Description>
+    <ID>102</ID>
+    <Category>App Tracking</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>App Name</Name>
+    <APIName>ga:appName</APIName>
+    <Description>The name of the application.</Description>
+    <ID>104</ID>
+    <Category>App Tracking</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>App Version</Name>
+    <APIName>ga:appVersion</APIName>
+    <Description>The version of the application.</Description>
+    <ID>103</ID>
+    <Category>App Tracking</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Browser</Name>
+    <APIName>ga:browser</APIName>
+    <Description>The names of browsers used by users to your website. For example, Internet Explorer or Firefox.</Description>
+    <ID>43</ID>
+    <Category>Platform or Device</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Browser Version</Name>
+    <APIName>ga:browserVersion</APIName>
+    <Description>The browser versions used by users to your website. For example, 2.0.0.14</Description>
+    <ID>44</ID>
+    <Category>Platform or Device</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Campaign</Name>
+    <APIName>ga:campaign</APIName>
+    <Description>When using manual campaign tracking, the value of the utm_campaign campaign tracking parameter. When using AdWords autotagging, the name(s) of the online ad campaign that you use for your property. Otherwise the value (not set) is used.</Description>
+    <ID>12</ID>
+    <Category>Traffic Sources</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Checkout Options</Name>
+    <APIName>ga:checkoutOptions</APIName>
+    <Description>User options specified during the checkout process, e.g., FedEx, DHL, UPS for delivery options or Visa, MasterCard, AmEx for payment options. This dimension should be used along with ga:shoppingStage (Enhanced Ecommerce).</Description>
+    <ID>176</ID>
+    <Category>Ecommerce</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>City</Name>
+    <APIName>ga:city</APIName>
+    <Description>The cities of property users, derived from IP addresses.</Description>
+    <ID>60</ID>
+    <Category>Geo Network</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Continent</Name>
+    <APIName>ga:continent</APIName>
+    <Description>The continents of property users, derived from IP addresses.</Description>
+    <ID>55</ID>
+    <Category>Geo Network</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Correlation Model ID</Name>
+    <APIName>ga:correlationModelId</APIName>
+    <Description>Correlation Model ID for related products.</Description>
+    <ID>163</ID>
+    <Category>Related Products</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Count of Sessions</Name>
+    <APIName>ga:sessionCount</APIName>
+    <Description>The session index for a user to your property. Each session from a unique user will get its own incremental index starting from 1 for the first session. Subsequent sessions do not change previous session indicies. For example, if a certain user has 4 sessions to your website, sessionCount for that user will have 4 distinct values of '1' through '4'.</Description>
+    <ID>3</ID>
+    <Category>User</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Country / Territory</Name>
+    <APIName>ga:country</APIName>
+    <Description>The country of users, derived from IP addresses.</Description>
+    <ID>57</ID>
+    <Category>Geo Network</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Currency Code</Name>
+    <APIName>ga:currencyCode</APIName>
+    <Description>The local currency code of the transaction based on ISO 4217 standard.</Description>
+    <ID>121</ID>
+    <Category>Ecommerce</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Custom Dimension XX</Name>
+    <APIName>ga:dimensionXX</APIName>
+    <Description>The name of the requested custom dimension, where XX refers the number/index of the custom dimension.</Description>
+    <ID>133</ID>
+    <Category>Custom Variables or Columns</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Custom Variable (Key XX)</Name>
+    <APIName>ga:customVarNameXX</APIName>
+    <Description>The name for the requested custom variable.</Description>
+    <ID>134</ID>
+    <Category>Custom Variables or Columns</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Custom Variable (Value XX)</Name>
+    <APIName>ga:customVarValueXX</APIName>
+    <Description>The value for the requested custom variable.</Description>
+    <ID>135</ID>
+    <Category>Custom Variables or Columns</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Date</Name>
+    <APIName>ga:date</APIName>
+    <Description>The date of the session formatted as YYYYMMDD.</Description>
+    <ID>136</ID>
+    <Category>Time</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Day Index</Name>
+    <APIName>ga:nthDay</APIName>
+    <Description>Index for each day in the specified date range. Index for the first day (i.e., start-date) in the date range is 0, 1 for the second day, and so on.</Description>
+    <ID>145</ID>
+    <Category>Time</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Day of the month</Name>
+    <APIName>ga:day</APIName>
+    <Description>The day of the month. A two-digit number from 01 to 31.</Description>
+    <ID>140</ID>
+    <Category>Time</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Day of Week</Name>
+    <APIName>ga:dayOfWeek</APIName>
+    <Description>The day of the week. A one-digit number from 0 (Sunday) to 6 (Saturday).</Description>
+    <ID>147</ID>
+    <Category>Time</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Day of Week Name</Name>
+    <APIName>ga:dayOfWeekName</APIName>
+    <Description>The name of the day of the week (in English).</Description>
+    <ID>148</ID>
+    <Category>Time</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Days Since Last Session</Name>
+    <APIName>ga:daysSinceLastSession</APIName>
+    <Description>The number of days elapsed since users last visited your property. Used to calculate user loyalty.</Description>
+    <ID>5</ID>
+    <Category>User</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Days to Transaction</Name>
+    <APIName>ga:daysToTransaction</APIName>
+    <Description>The number of days between users' purchases and the related campaigns that lead to the purchases.</Description>
+    <ID>117</ID>
+    <Category>Ecommerce</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Default Channel Grouping</Name>
+    <APIName>ga:channelGrouping</APIName>
+    <Description>The default channel grouping that is shared within the View (Profile).</Description>
+    <ID>162</ID>
+    <Category>Channel Grouping</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Destination Page</Name>
+    <APIName>ga:searchDestinationPage</APIName>
+    <Description>A page that the user visited after performing an internal search on your property.</Description>
+    <ID>101</ID>
+    <Category>Internal Search</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Destination URL</Name>
+    <APIName>ga:adDestinationUrl</APIName>
+    <Description>The URLs to which your AdWords ads referred traffic.</Description>
+    <ID>33</ID>
+    <Category>Adwords</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Device Category</Name>
+    <APIName>ga:deviceCategory</APIName>
+    <Description>The type of device: desktop, tablet, or mobile.</Description>
+    <ID>54</ID>
+    <Category>Platform or Device</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Display Name</Name>
+    <APIName>ga:socialActivityDisplayName</APIName>
+    <Description>For a social data hub activity, this value represents the title of the social activity posted by the social network user.</Description>
+    <ID>73</ID>
+    <Category>Social Activities</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Display URL</Name>
+    <APIName>ga:adDisplayUrl</APIName>
+    <Description>The URLs your AdWords ads displayed.</Description>
+    <ID>32</ID>
+    <Category>Adwords</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Endorsing URL</Name>
+    <APIName>ga:socialActivityEndorsingUrl</APIName>
+    <Description>For a social data hub activity, this value represents the URL of the social activity (e.g. the Google+ post URL, the blog comment URL, etc.)</Description>
+    <ID>72</ID>
+    <Category>Social Activities</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Event Action</Name>
+    <APIName>ga:eventAction</APIName>
+    <Description>The action of the event.</Description>
+    <ID>111</ID>
+    <Category>Event Tracking</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Event Category</Name>
+    <APIName>ga:eventCategory</APIName>
+    <Description>The category of the event.</Description>
+    <ID>110</ID>
+    <Category>Event Tracking</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Event Label</Name>
+    <APIName>ga:eventLabel</APIName>
+    <Description>The label of the event.</Description>
+    <ID>112</ID>
+    <Category>Event Tracking</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Exception Description</Name>
+    <APIName>ga:exceptionDescription</APIName>
+    <Description>The description for the exception.</Description>
+    <ID>130</ID>
+    <Category>Exceptions</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Exit Page</Name>
+    <APIName>ga:exitPagePath</APIName>
+    <Description>The last page in a user's session, or exit page.</Description>
+    <ID>92</ID>
+    <Category>Page Tracking</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Exit Screen</Name>
+    <APIName>ga:exitScreenName</APIName>
+    <Description>The name of the screen when the user exited the application.</Description>
+    <ID>109</ID>
+    <Category>App Tracking</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Experiment ID</Name>
+    <APIName>ga:experimentId</APIName>
+    <Description>The user-scoped id of the content experiment that the user was exposed to when the metrics were reported.</Description>
+    <ID>131</ID>
+    <Category>Content Experiments</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Flash Version</Name>
+    <APIName>ga:flashVersion</APIName>
+    <Description>The versions of Flash supported by users' browsers, including minor versions.</Description>
+    <ID>65</ID>
+    <Category>System</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Full Referrer</Name>
+    <APIName>ga:fullReferrer</APIName>
+    <Description>The full referring URL including the hostname and path.</Description>
+    <ID>11</ID>
+    <Category>Traffic Sources</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Gender</Name>
+    <APIName>ga:userGender</APIName>
+    <Description>Gender of user.</Description>
+    <ID>157</ID>
+    <Category>Audience</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Goal Completion Location</Name>
+    <APIName>ga:goalCompletionLocation</APIName>
+    <Description>The page path or screen name that matched any destination type goal completion.</Description>
+    <ID>39</ID>
+    <Category>Goal Conversions</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Goal Previous Step - 1</Name>
+    <APIName>ga:goalPreviousStep1</APIName>
+    <Description>The page path or screen name that matched any destination type goal, one step prior to the goal completion location.</Description>
+    <ID>40</ID>
+    <Category>Goal Conversions</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Goal Previous Step - 2</Name>
+    <APIName>ga:goalPreviousStep2</APIName>
+    <Description>The page path or screen name that matched any destination type goal, two steps prior to the goal completion location.</Description>
+    <ID>41</ID>
+    <Category>Goal Conversions</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Goal Previous Step - 3</Name>
+    <APIName>ga:goalPreviousStep3</APIName>
+    <Description>The page path or screen name that matched any destination type goal, three steps prior to the goal completion location.</Description>
+    <ID>42</ID>
+    <Category>Goal Conversions</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Hostname</Name>
+    <APIName>ga:hostname</APIName>
+    <Description>The hostname from which the tracking request was made.</Description>
+    <ID>83</ID>
+    <Category>Page Tracking</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Hour</Name>
+    <APIName>ga:hour</APIName>
+    <Description>A two-digit hour of the day ranging from 00-23 in the timezone configured for the account. This value is also corrected for daylight savings time, adhering to all local rules for daylight savings time. If your timezone follows daylight savings time, there will be an apparent bump in the number of sessions during the change-over hour (e.g. between 1:00 and 2:00) for the day per year when that hour repeats. A corresponding hour with zero sessions will occur at the opposite changeover. (Google Analytics does not track user time more precisely than hours.)</Description>
+    <ID>141</ID>
+    <Category>Time</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Hour Index</Name>
+    <APIName>ga:nthHour</APIName>
+    <Description>Index for each hour in the specified date range. Index for the first hour of first day (i.e., start-date) in the date range is 0, 1 for the next hour, and so on.</Description>
+    <ID>165</ID>
+    <Category>Time</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Hour of Day</Name>
+    <APIName>ga:dateHour</APIName>
+    <Description>Combined values of ga:date and ga:hour.</Description>
+    <ID>149</ID>
+    <Category>Time</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>In-Market Segment</Name>
+    <APIName>ga:interestInMarketCategory</APIName>
+    <Description>Indicates that users are more likely to be ready to purchase products or services in the specified category.</Description>
+    <ID>161</ID>
+    <Category>Audience</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Internal Promotion Creative</Name>
+    <APIName>ga:internalPromotionCreative</APIName>
+    <Description>The creative content designed for a promotion (Enhanced Ecommerce).</Description>
+    <ID>177</ID>
+    <Category>Ecommerce</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Internal Promotion ID</Name>
+    <APIName>ga:internalPromotionId</APIName>
+    <Description>The ID of the promotion (Enhanced Ecommerce).</Description>
+    <ID>178</ID>
+    <Category>Ecommerce</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Internal Promotion Name</Name>
+    <APIName>ga:internalPromotionName</APIName>
+    <Description>The name of the promotion (Enhanced Ecommerce).</Description>
+    <ID>179</ID>
+    <Category>Ecommerce</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Internal Promotion Position</Name>
+    <APIName>ga:internalPromotionPosition</APIName>
+    <Description>The position of the promotion on the web page or application screen (Enhanced Ecommerce).</Description>
+    <ID>180</ID>
+    <Category>Ecommerce</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>ISO Week of ISO Year</Name>
+    <APIName>ga:isoYearIsoWeek</APIName>
+    <Description>Combined values of ga:isoYear and ga:isoWeek.</Description>
+    <ID>154</ID>
+    <Category>Time</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>ISO Week of the Year</Name>
+    <APIName>ga:isoWeek</APIName>
+    <Description>The ISO week number, where each week starts with a Monday. Details: http://en.wikipedia.org/wiki/ISO_week_date. ga:isoWeek should only be used with ga:isoYear since ga:year represents gregorian calendar.</Description>
+    <ID>152</ID>
+    <Category>Time</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>ISO Year</Name>
+    <APIName>ga:isoYear</APIName>
+    <Description>The ISO year of the session. Details: http://en.wikipedia.org/wiki/ISO_week_date. ga:isoYear should only be used with ga:isoWeek since ga:week represents gregorian calendar.</Description>
+    <ID>153</ID>
+    <Category>Time</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Java Support</Name>
+    <APIName>ga:javaEnabled</APIName>
+    <Description>Indicates Java support for users' browsers. The possible values are Yes or No where the first letter must be capitalized.</Description>
+    <ID>66</ID>
+    <Category>System</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Keyword</Name>
+    <APIName>ga:keyword</APIName>
+    <Description>When using manual campaign tracking, the value of the utm_term campaign tracking parameter. When using AdWords autotagging or if a user used organic search to reach your property, the keywords used by users to reach your property. Otherwise the value is (not set).</Description>
+    <ID>16</ID>
+    <Category>Traffic Sources</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Keyword Match Type</Name>
+    <APIName>ga:adKeywordMatchType</APIName>
+    <Description>The match types applied to your keywords (Phrase, Exact, Broad). Details: https://support.google.com/adwords/answer/2472708?hl=en</Description>
+    <ID>25</ID>
+    <Category>Adwords</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Landing Page</Name>
+    <APIName>ga:landingPagePath</APIName>
+    <Description>The first page in a user's session, or landing page.</Description>
+    <ID>90</ID>
+    <Category>Page Tracking</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Landing Page Group XX</Name>
+    <APIName>ga:landingContentGroupXX</APIName>
+    <Description>The first matching content group in a user's session.</Description>
+    <ID>172</ID>
+    <Category>Content Grouping</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Landing Screen</Name>
+    <APIName>ga:landingScreenName</APIName>
+    <Description>The name of the first screen viewed.</Description>
+    <ID>108</ID>
+    <Category>App Tracking</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Language</Name>
+    <APIName>ga:language</APIName>
+    <Description>The language provided by the HTTP Request for the browser. Values are given as an ISO-639 code (e.g. en-gb for British English).</Description>
+    <ID>67</ID>
+    <Category>System</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Latitude</Name>
+    <APIName>ga:latitude</APIName>
+    <Description>The approximate latitude of the user's city. Derived from IP address. Locations north of the equator are represented by positive values and locations south of the equator by negative values.</Description>
+    <ID>61</ID>
+    <Category>Geo Network</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Longitude</Name>
+    <APIName>ga:longitude</APIName>
+    <Description>The approximate longitude of the user's city. Derived from IP address. Locations east of the meridian are represented by positive values and locations west of the meridian by negative values.</Description>
+    <ID>62</ID>
+    <Category>Geo Network</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Matched Search Query</Name>
+    <APIName>ga:adMatchedQuery</APIName>
+    <Description>The search queries that triggered impressions of your AdWords ads.</Description>
+    <ID>26</ID>
+    <Category>Adwords</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Medium</Name>
+    <APIName>ga:medium</APIName>
+    <Description>The type of referrals to your property. When using manual campaign tracking, the value of the utm_medium campaign tracking parameter. When using AdWords autotagging, the value is ppc. If the user comes from a search engine detected by Google Analytics, the value is organic. If the referrer is not a search engine, the value is referral. If the users came directly to the property, and document.referrer is empty, the value is (none).</Description>
+    <ID>14</ID>
+    <Category>Traffic Sources</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Metro</Name>
+    <APIName>ga:metro</APIName>
+    <Description>The Designated Market Area (DMA) from where traffic arrived on your property.</Description>
+    <ID>59</ID>
+    <Category>Geo Network</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Minute</Name>
+    <APIName>ga:minute</APIName>
+    <Description>Returns the minute in the hour. The possible values are between 00 and 59.</Description>
+    <ID>142</ID>
+    <Category>Time</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Minute Index</Name>
+    <APIName>ga:nthMinute</APIName>
+    <Description>Index for each minute in the specified date range. Index for the first minute of first day (i.e., start-date) in the date range is 0, 1 for the next minute, and so on.</Description>
+    <ID>146</ID>
+    <Category>Time</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Mobile (Including Tablet)</Name>
+    <APIName>ga:isMobile</APIName>
+    <Description>This dimension is deprecated and will be removed soon. Please use ga:deviceCategory instead (e.g., ga:deviceCategory==mobile).</Description>
+    <ID>47</ID>
+    <Category>Platform or Device</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Mobile Device Branding</Name>
+    <APIName>ga:mobileDeviceBranding</APIName>
+    <Description>Mobile manufacturer or branded name.</Description>
+    <ID>49</ID>
+    <Category>Platform or Device</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Mobile Device Info</Name>
+    <APIName>ga:mobileDeviceInfo</APIName>
+    <Description>The branding, model, and marketing name used to identify the mobile device.</Description>
+    <ID>52</ID>
+    <Category>Platform or Device</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Mobile Device Marketing Name</Name>
+    <APIName>ga:mobileDeviceMarketingName</APIName>
+    <Description>The marketing name used for the mobile device.</Description>
+    <ID>53</ID>
+    <Category>Platform or Device</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Mobile Device Model</Name>
+    <APIName>ga:mobileDeviceModel</APIName>
+    <Description>Mobile device model</Description>
+    <ID>50</ID>
+    <Category>Platform or Device</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Mobile Input Selector</Name>
+    <APIName>ga:mobileInputSelector</APIName>
+    <Description>Selector used on the mobile device (e.g.: touchscreen, joystick, clickwheel, stylus).</Description>
+    <ID>51</ID>
+    <Category>Platform or Device</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Month Index</Name>
+    <APIName>ga:nthMonth</APIName>
+    <Description>Index for each month in the specified date range. Index for the first month in the date range is 0, 1 for the second month, and so on. The index corresponds to month entries.</Description>
+    <ID>143</ID>
+    <Category>Time</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Month of the year</Name>
+    <APIName>ga:month</APIName>
+    <Description>The month of the session. A two digit integer from 01 to 12.</Description>
+    <ID>138</ID>
+    <Category>Time</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Month of Year</Name>
+    <APIName>ga:yearMonth</APIName>
+    <Description>Combined values of ga:year and ga:month.</Description>
+    <ID>150</ID>
+    <Category>Time</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Network Domain</Name>
+    <APIName>ga:networkDomain</APIName>
+    <Description>The domain name of the ISPs used by users to your property. This is derived from the domain name registered to the IP address.</Description>
+    <ID>63</ID>
+    <Category>Geo Network</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Next Page Group XX</Name>
+    <APIName>ga:nextContentGroupXX</APIName>
+    <Description>Refers to content group that was visited after another content group.</Description>
+    <ID>175</ID>
+    <Category>Content Grouping</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Next Page Path</Name>
+    <APIName>ga:nextPagePath</APIName>
+    <Description>A page on your website that was visited after another page on your website. Typically used with the previousPagePath dimension.</Description>
+    <ID>94</ID>
+    <Category>Page Tracking</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Operating System</Name>
+    <APIName>ga:operatingSystem</APIName>
+    <Description>The operating system used by your users. For example, Windows, Linux , Macintosh, iPhone, iPod.</Description>
+    <ID>45</ID>
+    <Category>Platform or Device</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Operating System Version</Name>
+    <APIName>ga:operatingSystemVersion</APIName>
+    <Description>The version of the operating system used by your users, such as XP for Windows or PPC for Macintosh.</Description>
+    <ID>46</ID>
+    <Category>Platform or Device</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Order Coupon Code</Name>
+    <APIName>ga:orderCouponCode</APIName>
+    <Description>Code for the order-level coupon (Enhanced Ecommerce).</Description>
+    <ID>181</ID>
+    <Category>Ecommerce</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Originating Social Action</Name>
+    <APIName>ga:socialActivityAction</APIName>
+    <Description>For a social data hub activity, this value represents the type of social action associated with the activity (e.g. vote, comment, +1, etc.).</Description>
+    <ID>81</ID>
+    <Category>Social Activities</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Other Category</Name>
+    <APIName>ga:interestOtherCategory</APIName>
+    <Description>Indicates that users are more likely to be interested in learning about the specified category, and more likely to be ready to purchase.</Description>
+    <ID>159</ID>
+    <Category>Audience</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Page</Name>
+    <APIName>ga:pagePath</APIName>
+    <Description>A page on your website specified by path and/or query parameters. Use in conjunction with hostname to get the full URL of the page.</Description>
+    <ID>84</ID>
+    <Category>Page Tracking</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Page Depth</Name>
+    <APIName>ga:pageDepth</APIName>
+    <Description>The number of pages visited by users during a session. The value is a histogram that counts pageviews across a range of possible values. In this calculation, all sessions will have at least one pageview, and some percentage of sessions will have more.</Description>
+    <ID>95</ID>
+    <Category>Page Tracking</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Page Group XX</Name>
+    <APIName>ga:contentGroupXX</APIName>
+    <Description>Content group on a web property. A content group is a collection of content providing a logical structure that can be determined by tracking code or page title/url regex match, or predefined rules.</Description>
+    <ID>174</ID>
+    <Category>Content Grouping</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Page path level 1</Name>
+    <APIName>ga:pagePathLevel1</APIName>
+    <Description>This dimension rolls up all the page paths in the first hierarchical level in pagePath.</Description>
+    <ID>85</ID>
+    <Category>Page Tracking</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Page path level 2</Name>
+    <APIName>ga:pagePathLevel2</APIName>
+    <Description>This dimension rolls up all the page paths in the second hierarchical level in pagePath.</Description>
+    <ID>86</ID>
+    <Category>Page Tracking</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Page path level 3</Name>
+    <APIName>ga:pagePathLevel3</APIName>
+    <Description>This dimension rolls up all the page paths in the third hierarchical level in pagePath.</Description>
+    <ID>87</ID>
+    <Category>Page Tracking</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Page path level 4</Name>
+    <APIName>ga:pagePathLevel4</APIName>
+    <Description>This dimension rolls up all the page paths into hierarchical levels. Up to 4 pagePath levels maybe specified. All additional levels in the pagePath hierarchy are also rolled up in this dimension.</Description>
+    <ID>88</ID>
+    <Category>Page Tracking</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Page Title</Name>
+    <APIName>ga:pageTitle</APIName>
+    <Description>The title of a page. Keep in mind that multiple pages might have the same page title.</Description>
+    <ID>89</ID>
+    <Category>Page Tracking</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Placement Domain</Name>
+    <APIName>ga:adPlacementDomain</APIName>
+    <Description>The domains where your ads on the content network were placed.</Description>
+    <ID>27</ID>
+    <Category>Adwords</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Placement Type</Name>
+    <APIName>ga:adTargetingOption</APIName>
+    <Description>How you manage your ads on the content network. Values are Automatic placements or Managed placements.</Description>
+    <ID>31</ID>
+    <Category>Adwords</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Placement URL</Name>
+    <APIName>ga:adPlacementUrl</APIName>
+    <Description>The URLs where your ads on the content network were placed.</Description>
+    <ID>28</ID>
+    <Category>Adwords</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Previous Page Group XX</Name>
+    <APIName>ga:previousContentGroupXX</APIName>
+    <Description>Refers to content group that was visited before another content group.</Description>
+    <ID>173</ID>
+    <Category>Content Grouping</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Previous Page Path</Name>
+    <APIName>ga:previousPagePath</APIName>
+    <Description>A page on your property that was visited before another page on the same property. Typically used with the pagePath dimension.</Description>
+    <ID>93</ID>
+    <Category>Page Tracking</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Product</Name>
+    <APIName>ga:productName</APIName>
+    <Description>The product name for purchased items as supplied by your ecommerce tracking application.</Description>
+    <ID>119</ID>
+    <Category>Ecommerce</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Product Brand</Name>
+    <APIName>ga:productBrand</APIName>
+    <Description>The brand name under which the product is sold (Enhanced Ecommerce).</Description>
+    <ID>182</ID>
+    <Category>Ecommerce</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Product Category</Name>
+    <APIName>ga:productCategory</APIName>
+    <Description>Any product variations (size, color) for purchased items as supplied by your ecommerce application. Not compatible with Enhanced Ecommerce.</Description>
+    <ID>120</ID>
+    <Category>Ecommerce</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Product Category (Enhanced Ecommerce)</Name>
+    <APIName>ga:productCategoryHierarchy</APIName>
+    <Description>The hierarchical category in which the product is classified (Enhanced Ecommerce).</Description>
+    <ID>183</ID>
+    <Category>Ecommerce</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Product Category Level XX</Name>
+    <APIName>ga:productCategoryLevelXX</APIName>
+    <Description>Level (1-5) in the product category hierarchy, starting from the top (Enhanced Ecommerce).</Description>
+    <ID>184</ID>
+    <Category>Ecommerce</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Product Coupon Code</Name>
+    <APIName>ga:productCouponCode</APIName>
+    <Description>Code for the product-level coupon (Enhanced Ecommerce).</Description>
+    <ID>185</ID>
+    <Category>Ecommerce</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Product List Name</Name>
+    <APIName>ga:productListName</APIName>
+    <Description>The name of the product list in which the product appears (Enhanced Ecommerce).</Description>
+    <ID>186</ID>
+    <Category>Ecommerce</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Product List Position</Name>
+    <APIName>ga:productListPosition</APIName>
+    <Description>The position of the product in the product list (Enhanced Ecommerce).</Description>
+    <ID>187</ID>
+    <Category>Ecommerce</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Product SKU</Name>
+    <APIName>ga:productSku</APIName>
+    <Description>The product sku for purchased items as you have defined them in your ecommerce tracking application.</Description>
+    <ID>118</ID>
+    <Category>Ecommerce</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Product Variant</Name>
+    <APIName>ga:productVariant</APIName>
+    <Description>The specific variation of a product, e.g., XS, S, M, L for size or Red, Blue, Green, Black for color (Enhanced Ecommerce).</Description>
+    <ID>188</ID>
+    <Category>Ecommerce</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Queried Product ID</Name>
+    <APIName>ga:queryProductId</APIName>
+    <Description>ID of the product being queried.</Description>
+    <ID>166</ID>
+    <Category>Related Products</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Queried Product Name</Name>
+    <APIName>ga:queryProductName</APIName>
+    <Description>Name of the product being queried.</Description>
+    <ID>167</ID>
+    <Category>Related Products</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Queried Product Variation</Name>
+    <APIName>ga:queryProductVariation</APIName>
+    <Description>Variation of the product being queried.</Description>
+    <ID>168</ID>
+    <Category>Related Products</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Query Match Type</Name>
+    <APIName>ga:adMatchType</APIName>
+    <Description>The match types applied for the search term the user had input(Phrase, Exact, Broad, etc.). Ads on the content network are identified as "Content network". Details: https://support.google.com/adwords/answer/2472708?hl=en</Description>
+    <ID>24</ID>
+    <Category>Adwords</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Referral Path</Name>
+    <APIName>ga:referralPath</APIName>
+    <Description>The path of the referring URL (e.g. document.referrer). If someone places a link to your property on their website, this element contains the path of the page that contains the referring link.</Description>
+    <ID>10</ID>
+    <Category>Traffic Sources</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Refined Keyword</Name>
+    <APIName>ga:searchKeywordRefinement</APIName>
+    <Description>Subsequent keyword search terms or strings entered by users after a given initial string search.</Description>
+    <ID>98</ID>
+    <Category>Internal Search</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Region</Name>
+    <APIName>ga:region</APIName>
+    <Description>The region of users to your property, derived from IP addresses. In the U.S., a region is a state, such as New York.</Description>
+    <ID>58</ID>
+    <Category>Geo Network</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Related Product ID</Name>
+    <APIName>ga:relatedProductId</APIName>
+    <Description>ID of the related product.</Description>
+    <ID>169</ID>
+    <Category>Related Products</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Related Product Name</Name>
+    <APIName>ga:relatedProductName</APIName>
+    <Description>Name of the related product.</Description>
+    <ID>170</ID>
+    <Category>Related Products</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Related Product Variation</Name>
+    <APIName>ga:relatedProductVariation</APIName>
+    <Description>Variation of the related product.</Description>
+    <ID>171</ID>
+    <Category>Related Products</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Screen Colors</Name>
+    <APIName>ga:screenColors</APIName>
+    <Description>The color depth of users' monitors, as retrieved from the DOM of the user's browser. For example 4-bit, 8-bit, 24-bit, or undefined-bit.</Description>
+    <ID>68</ID>
+    <Category>System</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Screen Depth</Name>
+    <APIName>ga:screenDepth</APIName>
+    <Description>The number of screenviews per session reported as a string. Can be useful for historgrams.</Description>
+    <ID>107</ID>
+    <Category>App Tracking</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Screen Name</Name>
+    <APIName>ga:screenName</APIName>
+    <Description>The name of the screen.</Description>
+    <ID>106</ID>
+    <Category>App Tracking</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Screen Resolution</Name>
+    <APIName>ga:screenResolution</APIName>
+    <Description>The screen resolution of users' screens. For example: 1024x738.</Description>
+    <ID>71</ID>
+    <Category>System</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Search Term</Name>
+    <APIName>ga:searchKeyword</APIName>
+    <Description>Search terms used by users within your property.</Description>
+    <ID>97</ID>
+    <Category>Internal Search</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Second Page</Name>
+    <APIName>ga:secondPagePath</APIName>
+    <Description>The second page in a user's session.</Description>
+    <ID>91</ID>
+    <Category>Page Tracking</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Service Provider</Name>
+    <APIName>ga:networkLocation</APIName>
+    <Description>The name of service providers used to reach your property. For example, if most users to your website come via the major service providers for cable internet, you will see the names of those cable service providers in this element.</Description>
+    <ID>64</ID>
+    <Category>Geo Network</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Session Duration</Name>
+    <APIName>ga:sessionDurationBucket</APIName>
+    <Description>The length of a session on your property measured in seconds and reported in second increments. The value returned is a string.</Description>
+    <ID>8</ID>
+    <Category>Session</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Sessions to Transaction</Name>
+    <APIName>ga:sessionsToTransaction</APIName>
+    <Description>The number of sessions between users' purchases and the related campaigns that lead to the purchases.</Description>
+    <ID>115</ID>
+    <Category>Ecommerce</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Shared URL</Name>
+    <APIName>ga:socialActivityContentUrl</APIName>
+    <Description>For a social data hub activity, this value represents the URL shared by the associated social network user.</Description>
+    <ID>79</ID>
+    <Category>Social Activities</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Shopping Stage</Name>
+    <APIName>ga:shoppingStage</APIName>
+    <Description>Various stages of the shopping experience that users completed in a session, e.g., PRODUCT_VIEW, ADD_TO_CART, CHECKOUT, etc. (Enhanced Ecommerce).</Description>
+    <ID>189</ID>
+    <Category>Ecommerce</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Site Search Category</Name>
+    <APIName>ga:searchCategory</APIName>
+    <Description>The categories used for the internal search if you have this enabled for your profile. For example, you might have product categories such as electronics, furniture, or clothing.</Description>
+    <ID>99</ID>
+    <Category>Internal Search</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Site Search Status</Name>
+    <APIName>ga:searchUsed</APIName>
+    <Description>A boolean to distinguish whether internal search was used in a session. Values are Visits With Site Search and Visits Without Site Search.</Description>
+    <ID>96</ID>
+    <Category>Internal Search</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Social Action</Name>
+    <APIName>ga:socialInteractionAction</APIName>
+    <Description>For social interactions, a value representing the social action being tracked (e.g. +1, bookmark)</Description>
+    <ID>123</ID>
+    <Category>Social Interactions</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Social Activity Post</Name>
+    <APIName>ga:socialActivityPost</APIName>
+    <Description>For a social data hub activity, this value represents the content of the social activity posted by the social network user (e.g. The message content of a Google+ post)</Description>
+    <ID>74</ID>
+    <Category>Social Activities</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Social Activity Timestamp</Name>
+    <APIName>ga:socialActivityTimestamp</APIName>
+    <Description>For a social data hub activity, this value represents when the social activity occurred on the social network.</Description>
+    <ID>75</ID>
+    <Category>Social Activities</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Social Entity</Name>
+    <APIName>ga:socialInteractionTarget</APIName>
+    <Description>For social interactions, a value representing the URL (or resource) which receives the social network action.</Description>
+    <ID>125</ID>
+    <Category>Social Interactions</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Social Network</Name>
+    <APIName>ga:socialNetwork</APIName>
+    <Description>Name of the social network. This can be related to the referring social network for traffic sources, or to the social network for social data hub activities. E.g. Google+, Blogger, etc.</Description>
+    <ID>18</ID>
+    <Category>Traffic Sources</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Social Network and Action</Name>
+    <APIName>ga:socialActivityNetworkAction</APIName>
+    <Description>For a social data hub activity, this value represents the type of social action and the social network where the activity originated.</Description>
+    <ID>82</ID>
+    <Category>Social Activities</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Social Source</Name>
+    <APIName>ga:socialInteractionNetwork</APIName>
+    <Description>For social interactions, a value representing the social network being tracked.</Description>
+    <ID>122</ID>
+    <Category>Social Interactions</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Social Source and Action</Name>
+    <APIName>ga:socialInteractionNetworkAction</APIName>
+    <Description>For social interactions, a value representing the concatenation of the socialInteractionNetwork and socialInteractionAction action being tracked at this hit level (e.g. Google: +1)</Description>
+    <ID>124</ID>
+    <Category>Social Interactions</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Social Source Referral</Name>
+    <APIName>ga:hasSocialSourceReferral</APIName>
+    <Description>Indicates sessions that arrived to the property from a social source. The possible values are Yes or No where the first letter is capitalized.</Description>
+    <ID>19</ID>
+    <Category>Traffic Sources</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Social Tags Summary</Name>
+    <APIName>ga:socialActivityTagsSummary</APIName>
+    <Description>For a social data hub activity, this is a comma-separated set of tags associated with the social activity.</Description>
+    <ID>80</ID>
+    <Category>Social Activities</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Social Type</Name>
+    <APIName>ga:socialEngagementType</APIName>
+    <Description>Engagement type. Possible values are "Socially Engaged" or "Not Socially Engaged".</Description>
+    <ID>126</ID>
+    <Category>Social Interactions</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Social User Handle</Name>
+    <APIName>ga:socialActivityUserHandle</APIName>
+    <Description>For a social data hub activity, this value represents the social network handle (e.g. name or ID) of the user who initiated the social activity.</Description>
+    <ID>76</ID>
+    <Category>Social Activities</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Source</Name>
+    <APIName>ga:source</APIName>
+    <Description>The source of referrals to your property. When using manual campaign tracking, the value of the utm_source campaign tracking parameter. When using AdWords autotagging, the value is google. Otherwise the domain of the source referring the user to your property (e.g. document.referrer). The value may also contain a port address. If the user arrived without a referrer, the value is (direct)</Description>
+    <ID>13</ID>
+    <Category>Traffic Sources</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Source / Medium</Name>
+    <APIName>ga:sourceMedium</APIName>
+    <Description>Combined values of ga:source and ga:medium.</Description>
+    <ID>15</ID>
+    <Category>Traffic Sources</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Source Property Display Name</Name>
+    <APIName>ga:sourcePropertyDisplayName</APIName>
+    <Description>Source property display name of roll-up properties. This is valid only for roll-up properties.</Description>
+    <ID>69</ID>
+    <Category>System</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Source Property Tracking ID</Name>
+    <APIName>ga:sourcePropertyTrackingId</APIName>
+    <Description>Source property tracking ID of roll-up properties. This is valid only for roll-up properties.</Description>
+    <ID>70</ID>
+    <Category>System</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Start Page</Name>
+    <APIName>ga:searchStartPage</APIName>
+    <Description>A page where the user initiated an internal search on your property.</Description>
+    <ID>100</ID>
+    <Category>Internal Search</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Sub Continent Region</Name>
+    <APIName>ga:subContinent</APIName>
+    <Description>The sub-continent of users, derived from IP addresses. For example, Polynesia or Northern Europe.</Description>
+    <ID>56</ID>
+    <Category>Geo Network</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Tablet</Name>
+    <APIName>ga:isTablet</APIName>
+    <Description>This dimension is deprecated and will be removed soon. Please use ga:deviceCategory instead (e.g., ga:deviceCategory==tablet).</Description>
+    <ID>48</ID>
+    <Category>Platform or Device</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Targeting Type</Name>
+    <APIName>ga:adTargetingType</APIName>
+    <Description>How your AdWords ads were targeted (keyword, placement, and vertical targeting, etc.).</Description>
+    <ID>30</ID>
+    <Category>Adwords</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Timing Category</Name>
+    <APIName>ga:userTimingCategory</APIName>
+    <Description>A string for categorizing all user timing variables into logical groups for easier reporting purposes.</Description>
+    <ID>127</ID>
+    <Category>User Timings</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Timing Label</Name>
+    <APIName>ga:userTimingLabel</APIName>
+    <Description>The name of the resource's action being tracked.</Description>
+    <ID>128</ID>
+    <Category>User Timings</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Timing Variable</Name>
+    <APIName>ga:userTimingVariable</APIName>
+    <Description>A value that can be used to add flexibility in visualizing user timings in the reports.</Description>
+    <ID>129</ID>
+    <Category>User Timings</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Transaction ID</Name>
+    <APIName>ga:transactionId</APIName>
+    <Description>The transaction ID for the shopping cart purchase as supplied by your ecommerce tracking method.</Description>
+    <ID>113</ID>
+    <Category>Ecommerce</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>TrueView Video Ad</Name>
+    <APIName>ga:isTrueViewVideoAd</APIName>
+    <Description>'Yes' or 'No' - Indicates whether the ad is an AdWords TrueView video ad.</Description>
+    <ID>164</ID>
+    <Category>Adwords</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>User Defined Value</Name>
+    <APIName>ga:userDefinedValue</APIName>
+    <Description>The value provided when you define custom user segments for your property.</Description>
+    <ID>7</ID>
+    <Category>User</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>User Photo URL</Name>
+    <APIName>ga:socialActivityUserPhotoUrl</APIName>
+    <Description>For a social data hub activity, this value represents the URL of the photo associated with the user's social network profile.</Description>
+    <ID>77</ID>
+    <Category>Social Activities</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>User Profile URL</Name>
+    <APIName>ga:socialActivityUserProfileUrl</APIName>
+    <Description>For a social data hub activity, this value represents the URL of the associated user's social network profile.</Description>
+    <ID>78</ID>
+    <Category>Social Activities</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>User Type</Name>
+    <APIName>ga:userType</APIName>
+    <Description>A boolean indicating if a user is new or returning. Possible values: New Visitor, Returning Visitor.</Description>
+    <ID>1</ID>
+    <Category>User</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Variation</Name>
+    <APIName>ga:experimentVariant</APIName>
+    <Description>The user-scoped id of the particular variation that the user was exposed to during a content experiment.</Description>
+    <ID>132</ID>
+    <Category>Content Experiments</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Week Index</Name>
+    <APIName>ga:nthWeek</APIName>
+    <Description>Index for each week in the specified date range. Index for the first week in the date range is 0, 1 for the second week, and so on. The index corresponds to week entries.</Description>
+    <ID>144</ID>
+    <Category>Time</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Week of the Year</Name>
+    <APIName>ga:week</APIName>
+    <Description>The week of the session. A two-digit number from 01 to 53. Each week starts on Sunday.</Description>
+    <ID>139</ID>
+    <Category>Time</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Week of Year</Name>
+    <APIName>ga:yearWeek</APIName>
+    <Description>Combined values of ga:year and ga:week.</Description>
+    <ID>151</ID>
+    <Category>Time</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <Name>Year</Name>
+    <APIName>ga:year</APIName>
+    <Description>The year of the session. A four-digit year from 2005 to the current year.</Description>
+    <ID>137</ID>
+    <Category>Time</Category>
+    <DataType>DT_WSTR</DataType>
+    <Length>255</Length>
+    <Precision />
+    <Scale />
+  </Dimensions>
+  <Dimensions>
+    <ID>2</ID>
+    <Name>Session Count</Name>
+    <APIName>ga:sessionCount</APIName>
+    <Description>The visit index for a visitor to your website. Each visit from a unique visitor will get its own incremental index starting from 1 for the first visit. Subsequent visits do not change previous visit indicies. For example, if a certain visitor has 4 visits to your website, ga:visitCount for that visitor will have 4 distinct values of '1' through '4'.</Description>
+    <Category>User</Category>
+    <DataType>DT_I4</DataType>
+    <Length />
+    <Precision />
+    <Scale />
+  </Dimensions>
+</dataRoot>
